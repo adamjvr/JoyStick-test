@@ -1,10 +1,11 @@
 /*
 JH-D202X-R2/R4 Joystick Module Test
-// CREDIT GOES TO: https://protosupplies.com/product/jh-d202x-r2-r4-joystick-5k/
+CREDIT GOES TO: https://protosupplies.com/product/jh-d202x-r2-r4-joystick-5k/
+Modified by adamjvr for ESP32 DevKit V1
 Basic code for monitoring the outputs of the joystick. 
 */
-int xPin = A1;      // Use any analog input pin to read X-Axis pot
-int yPin = A0;      // Use any analog input pin to read Y-Axis pot
+int xPin = 36;      // Use any analog input pin to read X-Axis pot
+int yPin = 39;      // Use any analog input pin to read Y-Axis pot
 int xPosition = 0;  // Variable to hold current X-Axis reading
 int yPosition = 0;  // Variable to hold current Y-Axis reading
 //===============================================================================
