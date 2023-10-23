@@ -13,7 +13,9 @@ int yPosition = 0;  // Variable to hold current Y-Axis reading
 //===============================================================================
 void setup() 
 { 
-  Serial.begin(9600); 
+  Serial.begin(115200); 
+  pinMode(xPin,INPUT);
+  pinMode(yPin,INPUT);
 }
 //===============================================================================
 //  Main
